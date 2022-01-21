@@ -43,6 +43,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <title>{title}</title>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-YER8B5T7XX"></script>
+            <script data-ad-client="ca-pub-8685517859414452" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
             <meta name="twitter:url" content="https://devplug.netlify.app" />
             <meta name="twitter:type" content="website" />
