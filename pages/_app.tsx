@@ -51,10 +51,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <meta name="twitter:image" content="https://repository-images.githubusercontent.com/450323911/44da9596-b21a-4b7c-8e94-c4e29934a931" />
             <meta name="twitter:card" content="summary_large_image" />
 
-            <base href="/" />
-            <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
-            <meta http-equiv="Pragma" content="no-cache"/>
-            <meta http-equiv="Expires" content="0"></meta>
+            <script>
+                {analytics_script}
+            </script>
         </Head>
 
         <Component {...pageProps} />
