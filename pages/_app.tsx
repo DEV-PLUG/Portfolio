@@ -37,14 +37,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         title = 'DEV PLUG | 페이지를 찾을 수 없음';
     }
 
-    let analytics_script = "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-YER8B5T7XX');"
-
     return <>
         <Head>
             <title>{title}</title>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-YER8B5T7XX"></script>
-            <script>{analytics_script}</script>
 
             <meta name="twitter:url" content="https://devplug.netlify.app" />
             <meta name="twitter:type" content="website" />
