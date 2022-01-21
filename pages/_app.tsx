@@ -53,6 +53,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <meta name="twitter:card" content="summary_large_image" />
 
             <base href="/" />
+            <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+            <meta http-equiv="Pragma" content="no-cache"/>
+            <meta http-equiv="Expires" content="0"></meta>
         </Head>
 
         <Component {...pageProps} />
