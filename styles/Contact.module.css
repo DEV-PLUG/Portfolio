@@ -3,6 +3,7 @@
     height: 100vh;
 
     background-image: url("../public/images/contact.jpg");
+    filter: brightness(1);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -16,6 +17,9 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .flex {
     display: flex;
