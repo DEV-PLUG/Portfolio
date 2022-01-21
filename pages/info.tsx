@@ -3,6 +3,7 @@ import styles from "../styles/Info.module.css";
 import classnames from 'classnames';
 import wait from "waait";
 import Menu from '../elements/menu';
+import Link from 'next/link';
 
 export default function Info() {
 
@@ -129,7 +130,7 @@ export default function Info() {
                         <div className={classnames(styles.main_title, styles.ani2)} style={{ margin:'0' }}>살펴보세요.</div>
                         <div className={classnames(styles.project, styles.ani3)}>
                             <div className={styles.project_detail}>
-                                <a href="https://github.com/DEV-PLUG/Shock" target="blank" className={styles.project_name}>Shock - 내가 골라 외우는 영단어.</a>
+                                <Link href="https://github.com/DEV-PLUG/Shock"><span className={styles.project_name}>Shock - 내가 골라 외우는 영단어.</span></Link>
                                 <div className={styles.project_des}>node.js + javascript 영단어 외우기 웹앱.</div>
                             </div>
                         </div></> : null

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import styles from "../styles/Notfound.module.css";
 import Menu from '../elements/menu';
+import Link from 'next/link';
 
 export default function Notfound() {
 
@@ -17,7 +18,7 @@ export default function Notfound() {
                         <div className={styles.title}>404 Not Found</div>
                         <div className={styles.des}>저런.. 올바르지 않은 경로에요.</div>
                         <div className={styles.flex}>
-                            <a href="/" className={styles.btn}>홈으로 가기</a>
+                            <Link href="/"><span className={styles.btn}>홈으로 가기</span></Link>
                         </div>
                     </div>
                 </div>
