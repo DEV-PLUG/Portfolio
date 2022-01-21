@@ -41,6 +41,7 @@ export default function Menu() {
     );
 }
 
+// Desktop Menu Part
 function DesktopMenu() {
     return <>
         <div className={menu_styles.menu}>
@@ -52,6 +53,8 @@ function DesktopMenu() {
         </div>
     </>
 }
+
+// Mobile Menu Part
 function MobileMenu() {
     let [isMobileMenuOpened, SetMobileIcon] = useState(false);
 
