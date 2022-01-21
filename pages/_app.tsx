@@ -8,7 +8,6 @@ import '../styles/globals.css';
 
 // import menu & footer
 import Footer from '../elements/footer';
-import Menu from '../elements/menu';
 
 // final return object
 export default function MyApp({ Component, pageProps }: AppProps) {
@@ -42,7 +41,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     return <>
         <Head>
             <title>{title}</title>
-            {/* <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-YER8B5T7XX"></script>
 
             <meta name="twitter:url" content="https://devplug.netlify.app" />
@@ -55,7 +54,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <base href="/" />
             <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
             <meta http-equiv="Pragma" content="no-cache"/>
-            <meta http-equiv="Expires" content="0"></meta> */}
+            <meta http-equiv="Expires" content="0"></meta>
         </Head>
 
         <Component {...pageProps} />
