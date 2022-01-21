@@ -1,0 +1,31 @@
+.title {
+    margin: 150px 0 50px;
+    font-size: 50px;
+    padding: 0 20%;
+    box-sizing: border-box;
+    color: #333333;
+    font-weight: bold;
+}
+.content {
+    font-size: 20px;
+    padding: 0 20%;
+    box-sizing: border-box;
+    color: #666666;
+    font-weight: normal;
+}
+.link {
+    text-decoration: underline;
+    color: #666666;
+}
+
+@media all and (max-width: 750px) {
+    .title {
+        padding: 0 40px;
+        margin: 120px 0 50px;
+        font-size: 40px;
+    }
+    .content {
+        padding: 0 40px;
+        font-size: 16px;
+    }
+}

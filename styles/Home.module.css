@@ -1,0 +1,132 @@
+.home {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../public/images/gra.jpg");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+
+    position: relative;
+    top: 0;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 0 20%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 80px;
+}
+.des {
+    font-size: 20px;
+    color: #666666;
+    margin: 20px 0 0;
+}
+.img {
+    position: absolute;
+    right: 20%;
+    background-image: url("../public/images/icons.png");
+    background-size: 100%;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.home_btn {
+    width: 170px;
+    height: 60px;
+    background-color: #1A73E8;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 0 0;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 40px;
+    color: white;
+    transition: .2s;
+    transition-property: background-color;
+    cursor: pointer;
+}
+.home_btn:hover {
+    background-color: #1A68CE;
+}
+
+@media all and (max-width: 1560px) {
+    .main {
+        justify-content: center;
+    }
+    .title {
+        text-align: center;
+    }
+    .des {
+        text-align: center;
+    }
+    .home_btn {
+        margin: 30px auto 0;
+    }
+    .img {
+        position: absolute;
+        left: 50%;
+        top: 32%;
+        transform: translate(-50%, -50%);
+    }
+    .main_content {
+        margin: 400px 0 0;
+    }
+}
+@media all and (max-width: 750px) {
+    .img {
+        width: 300px;
+        height: 300px;
+        top: 30%;
+    }
+    .title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .des {
+        font-size: 17px;
+    }
+    .main_content {
+        margin: 260px 0 0;
+    }
+}
+@media all and (max-height: 650px) {
+    .home {
+        height: 700px;
+        background-size: 100% 700px;
+    }
+}
+@media all and (max-height: 800px) {
+    .home {
+        height: 700px;
+        background-size: 100% 700px;
+    }
+    .img {
+        width: 300px;
+        height: 300px;
+        top: 30%;
+    }
+    .title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .des {
+        font-size: 17px;
+    }
+    .main_content {
+        margin: 260px 0 0;
+    }
+}
