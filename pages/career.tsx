@@ -3,7 +3,7 @@ import styles from "../styles/License.module.css";
 import Menu from '../elements/menu';
 import Link from 'next/link';
 
-export default function License() {
+export default function Career() {
 
     useEffect(() => {
         window.scrollTo(0,0);
