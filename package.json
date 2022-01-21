@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": ".",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,7 +21,6 @@
     "@types/react": "17.0.38",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.8",
-    "typescript": "4.5.4",
-    "@netlify/plugin-nextjs": "^4.0.0"
+    "typescript": "4.5.4"
   }
 }

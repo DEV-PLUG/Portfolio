@@ -44,7 +44,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <title>{title}</title>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-YER8B5T7XX"></script>
-            {/* <script>{analytics_script}</script> */}
 
             <meta name="twitter:url" content="https://devplug.netlify.app" />
             <meta name="twitter:type" content="website" />
@@ -52,6 +51,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <meta name="twitter:description" content="학생 개발자 PLUG에요!" />
             <meta name="twitter:image" content="https://repository-images.githubusercontent.com/450323911/44da9596-b21a-4b7c-8e94-c4e29934a931" />
             <meta name="twitter:card" content="summary_large_image" />
+
+            <base href="/" />
         </Head>
 
         <Component {...pageProps} />
