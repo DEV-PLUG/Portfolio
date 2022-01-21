@@ -16,7 +16,7 @@ export default function Home() {
                     <div className={styles.main_content}>
                         <div className={styles.title}>DEVELOPER<br/>PLUG</div>
                         <div className={styles.des}>웹 개발을 사랑하는,<br/>학생 개발자 PLUG에요!</div>
-                        <Link href="/info"><div className={styles.home_btn}>자세히 알아보기</div></Link>
+                        <Link passHref href="/info"><div className={styles.home_btn}>자세히 알아보기</div></Link>
                     </div>
                     <div className={styles.main_content}>
                         <div className={styles.img}></div>

@@ -32,9 +32,9 @@ export default function Footer ({ image }: Props) {
                 <div className={classnames(footer_styles.footer_content, footer_content)}>
                     <div className={footer_styles.footer_title}>PLUG</div>
                     <div className={footer_styles.footer_des}>
-                        <Link href={"/info"}><span className={footer_styles.link}>소개</span></Link>
-                        <Link href={"/contact"}><span className={footer_styles.link}>연락</span></Link>
-                        <Link href={"/license"}><span className={footer_styles.link}>라이센스</span></Link>
+                        <Link passHref href={"/info"}><span className={footer_styles.link}>소개</span></Link>
+                        <Link passHref href={"/contact"}><span className={footer_styles.link}>연락</span></Link>
+                        <Link passHref href={"/license"}><span className={footer_styles.link}>라이센스</span></Link>
                         <a className={footer_styles.link} href="/discord" target="blank">디스코드</a>
                         <a className={footer_styles.link} href="https://github.com/DEV-PLUG" target="blank">깃헙</a>
                     </div>

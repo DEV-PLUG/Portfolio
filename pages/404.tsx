@@ -18,7 +18,7 @@ export default function Notfound() {
                         <div className={styles.title}>404 Not Found</div>
                         <div className={styles.des}>저런.. 올바르지 않은 경로에요.</div>
                         <div className={styles.flex}>
-                            <Link href="/"><span className={styles.btn}>홈으로 가기</span></Link>
+                            <Link passHref href="/"><span className={styles.btn}>홈으로 가기</span></Link>
                         </div>
                     </div>
                 </div>
