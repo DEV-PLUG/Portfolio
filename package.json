@@ -12,13 +12,13 @@
   "dependencies": {
     "classnames": "2.3.1",
     "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "waait": "1.0.5"
   },
   "devDependencies": {
     "@types/node": "17.0.10",
-    "@types/react": "17.0.39",
+    "@types/react": "18.3.12",
     "eslint": "8.9.0",
     "eslint-config-next": "12.1.0",
     "typescript": "4.5.5"
